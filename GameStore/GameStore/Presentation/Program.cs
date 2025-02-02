@@ -36,7 +36,6 @@ using (var scope = app.Services.CreateScope())
 
     var games = new List<Game>
     {
-        // Initial 10 games
         new Game { Id = Guid.NewGuid(), Name = "The Witcher 3: Wild Hunt", Price = 49.99m, Developer = "CD Projekt Red" },
         new Game { Id = Guid.NewGuid(), Name = "Cyberpunk 2077", Price = 59.99m, Developer = "CD Projekt Red" },
         new Game { Id = Guid.NewGuid(), Name = "Elden Ring", Price = 59.99m, Developer = "FromSoftware" },
@@ -47,8 +46,6 @@ using (var scope = app.Services.CreateScope())
         new Game { Id = Guid.NewGuid(), Name = "Horizon Forbidden West", Price = 69.99m, Developer = "Guerrilla Games" },
         new Game { Id = Guid.NewGuid(), Name = "Dark Souls III", Price = 39.99m, Developer = "FromSoftware" },
         new Game { Id = Guid.NewGuid(), Name = "Starfield", Price = 69.99m, Developer = "Bethesda Game Studios" },
-
-        // Additional 10 games
         new Game { Id = Guid.NewGuid(), Name = "Assassin's Creed Valhalla", Price = 59.99m, Developer = "Ubisoft" },
         new Game { Id = Guid.NewGuid(), Name = "Call of Duty: Modern Warfare", Price = 59.99m, Developer = "Infinity Ward" },
         new Game { Id = Guid.NewGuid(), Name = "FIFA 23", Price = 59.99m, Developer = "EA Sports" },
