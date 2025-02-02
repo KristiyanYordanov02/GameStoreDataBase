@@ -10,17 +10,14 @@ using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddScoped<IGameRepository, GameRepository>();
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddHealthChecks().AddCheck<HealthCheck>("GameStoreHealthCheck");
 
-// Add MongoDB context
 var mongoContext = new MongoDBContext("mongodb://localhost:27017", "GameStore");
 builder.Services.AddSingleton(mongoContext.GetDatabase());
 
-// Add Serilog
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .CreateLogger();
@@ -28,7 +25,6 @@ builder.Host.UseSerilog();
 
 var app = builder.Build();
 
-// Seed data (insert 20 games into the database)
 using (var scope = app.Services.CreateScope())
 {
     var mongoDatabase = scope.ServiceProvider.GetRequiredService<IMongoDatabase>();
@@ -64,7 +60,6 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
