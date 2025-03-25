@@ -47,7 +47,7 @@ using (var scope = app.Services.CreateScope())
         new Game { Id = Guid.NewGuid(), Name = "FIFA 23", Price = 59.99m, Developer = "EA Sports" },
         new Game { Id = Guid.NewGuid(), Name = "Resident Evil Village", Price = 49.99m, Developer = "Capcom" },
         new Game { Id = Guid.NewGuid(), Name = "Spider-Man: Miles Morales", Price = 49.99m, Developer = "Insomniac Games" },
-        new Game { Id = Guid.NewGuid(), Name = "Final Fantasy VII Remake", Price = 59.99m, Developer = "Square Enix" },
+        new Game { Id = Guid.NewGuid(), Name = "Final Fantasy VII Remake", Price = 49.99m, Developer = "Square Enix" },
         new Game { Id = Guid.NewGuid(), Name = "Death Stranding", Price = 49.99m, Developer = "Kojima Productions" },
         new Game { Id = Guid.NewGuid(), Name = "Ghost of Tsushima", Price = 59.99m, Developer = "Sucker Punch Productions" },
         new Game { Id = Guid.NewGuid(), Name = "Demon's Souls", Price = 69.99m, Developer = "Bluepoint Games" },
