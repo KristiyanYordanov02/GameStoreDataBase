@@ -78,8 +78,7 @@
               "RelativeToolTip": "GameStore\\Infrastructure\\Repositories\\GameRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:39:01.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:39:01.118Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "GameStore\\Infrastructure\\MongoDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:39:27.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:39:27.32Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "GameStore\\Service\\GameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:40:23.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:40:23.353Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "GameStore\\Presentation\\Controllers\\GameController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:41:23.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:41:23.8Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "GameStore\\Presentation\\HealthChecks\\HealthCheck.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:41:48.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:41:48.376Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "GameStore\\Core\\Validation\\GameValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:38:06.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:38:06.721Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "GameStore\\Core\\Models\\GameDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:26.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:26.664Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "GameStore\\Core\\Models\\Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:09.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:09.941Z"
             },
             {
               "$type": "Document",
@@ -182,8 +174,7 @@
               "RelativeToolTip": "GameStore\\Core\\Interfaces\\IGameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:53.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:53.931Z"
             },
             {
               "$type": "Document",
@@ -195,8 +186,7 @@
               "RelativeToolTip": "GameStore\\Core\\Interfaces\\IGameRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:43.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:43.571Z"
             },
             {
               "$type": "Document",
@@ -208,8 +198,7 @@
               "RelativeToolTip": "GameStore\\Tests\\GameServiceTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:42:30.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:42:30.765Z"
             },
             {
               "$type": "Document",
@@ -219,7 +208,7 @@
               "RelativeDocumentMoniker": "GameStore\\Presentation\\Program.cs",
               "ToolTip": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Presentation\\Program.cs",
               "RelativeToolTip": "GameStore\\Presentation\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T19:42:04.188Z",
               "EditorCaption": ""

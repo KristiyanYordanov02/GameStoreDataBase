@@ -39,7 +39,7 @@ using (var scope = app.Services.CreateScope())
         new Game { Id = Guid.NewGuid(), Name = "The Legend of Zelda: Breath of the Wild", Price = 59.99m, Developer = "Nintendo" },
         new Game { Id = Guid.NewGuid(), Name = "God of War", Price = 49.99m, Developer = "Santa Monica Studio" },
         new Game { Id = Guid.NewGuid(), Name = "Halo Infinite", Price = 59.99m, Developer = "343 Industries" },
-        new Game { Id = Guid.NewGuid(), Name = "Horizon Forbidden West", Price = 69.99m, Developer = "Guerrilla Games" },
+        new Game { Id = Guid.NewGuid(), Name = "Horizon Forbidden West", Price = 59.99m, Developer = "Guerrilla Games" },
         new Game { Id = Guid.NewGuid(), Name = "Dark Souls III", Price = 39.99m, Developer = "FromSoftware" },
         new Game { Id = Guid.NewGuid(), Name = "Starfield", Price = 69.99m, Developer = "Bethesda Game Studios" },
         new Game { Id = Guid.NewGuid(), Name = "Assassin's Creed Valhalla", Price = 59.99m, Developer = "Ubisoft" },
