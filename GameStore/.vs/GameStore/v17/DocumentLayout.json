@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|c:\\users\\kingr\\source\\repos\\gamestore\\gamestoredatabase\\gamestore\\gamestore\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|c:\\users\\kingr\\source\\repos\\gamestore\\gamestoredatabase\\gamestore\\gamestore\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\infrastructure\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|c:\\users\\kingr\\source\\repos\\gamestore\\gamestoredatabase\\gamestore\\gamestore\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|c:\\users\\kingr\\source\\repos\\gamestore\\gamestoredatabase\\gamestore\\gamestore\\presentation\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C620FF1-BFCD-49E0-AD1D-7F9D6A8C87EC}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\presentation\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GameRepository.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Infrastructure\\Repositories\\GameRepository.cs",
               "RelativeDocumentMoniker": "GameStore\\Infrastructure\\Repositories\\GameRepository.cs",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MongoDBContext.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Infrastructure\\MongoDBContext.cs",
               "RelativeDocumentMoniker": "GameStore\\Infrastructure\\MongoDBContext.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Service\\GameService.cs",
               "RelativeDocumentMoniker": "GameStore\\Service\\GameService.cs",
@@ -102,7 +102,8 @@
               "RelativeToolTip": "GameStore\\Service\\GameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:40:23.353Z"
+              "WhenOpened": "2025-01-30T19:40:23.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GameValidator.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Core\\Validation\\GameValidator.cs",
               "RelativeDocumentMoniker": "GameStore\\Core\\Validation\\GameValidator.cs",
@@ -142,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameDto.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Core\\Models\\GameDto.cs",
               "RelativeDocumentMoniker": "GameStore\\Core\\Models\\GameDto.cs",
@@ -154,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Core\\Models\\Game.cs",
               "RelativeDocumentMoniker": "GameStore\\Core\\Models\\Game.cs",
@@ -166,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IGameService.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Core\\Interfaces\\IGameService.cs",
               "RelativeDocumentMoniker": "GameStore\\Core\\Interfaces\\IGameService.cs",
@@ -178,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IGameRepository.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Core\\Interfaces\\IGameRepository.cs",
               "RelativeDocumentMoniker": "GameStore\\Core\\Interfaces\\IGameRepository.cs",
@@ -190,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Tests\\GameServiceTests.cs",
               "RelativeDocumentMoniker": "GameStore\\Tests\\GameServiceTests.cs",
@@ -202,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Presentation\\Program.cs",
               "RelativeDocumentMoniker": "GameStore\\Presentation\\Program.cs",
