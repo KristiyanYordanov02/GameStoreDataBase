@@ -90,8 +90,7 @@
               "RelativeToolTip": "GameStore\\Infrastructure\\MongoDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:39:27.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:39:27.32Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "GameStore\\Service\\GameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:40:23.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:40:23.353Z"
             },
             {
               "$type": "Document",
@@ -140,8 +138,7 @@
               "RelativeToolTip": "GameStore\\Core\\Validation\\GameValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:38:06.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:38:06.721Z"
             },
             {
               "$type": "Document",
@@ -153,8 +150,7 @@
               "RelativeToolTip": "GameStore\\Core\\Models\\GameDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:26.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:26.664Z"
             },
             {
               "$type": "Document",
@@ -166,8 +162,7 @@
               "RelativeToolTip": "GameStore\\Core\\Models\\Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:09.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:09.941Z"
             },
             {
               "$type": "Document",
@@ -179,8 +174,7 @@
               "RelativeToolTip": "GameStore\\Core\\Interfaces\\IGameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:53.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:53.931Z"
             },
             {
               "$type": "Document",
@@ -192,8 +186,7 @@
               "RelativeToolTip": "GameStore\\Core\\Interfaces\\IGameRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:37:43.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:37:43.571Z"
             },
             {
               "$type": "Document",
@@ -205,8 +198,7 @@
               "RelativeToolTip": "GameStore\\Tests\\GameServiceTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T19:42:30.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T19:42:30.765Z"
             },
             {
               "$type": "Document",
@@ -216,7 +208,7 @@
               "RelativeDocumentMoniker": "GameStore\\Presentation\\Program.cs",
               "ToolTip": "C:\\Users\\kingr\\source\\repos\\GameStore\\GameStoreDataBase\\GameStore\\GameStore\\Presentation\\Program.cs",
               "RelativeToolTip": "GameStore\\Presentation\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T19:42:04.188Z",
               "EditorCaption": ""
