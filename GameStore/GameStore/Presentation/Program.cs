@@ -33,8 +33,8 @@ using (var scope = app.Services.CreateScope())
     var games = new List<Game>
     {
         new Game { Id = Guid.NewGuid(), Name = "The Witcher 3: Wild Hunt", Price = 49.99m, Developer = "CD Projekt Red" },
-        new Game { Id = Guid.NewGuid(), Name = "Cyberpunk 2077", Price = 59.99m, Developer = "CD Projekt Red" },
-        new Game { Id = Guid.NewGuid(), Name = "Elden Ring", Price = 59.99m, Developer = "FromSoftware" },
+        new Game { Id = Guid.NewGuid(), Name = "Cyberpunk 2077", Price = 49.99m, Developer = "CD Projekt Red" },
+        new Game { Id = Guid.NewGuid(), Name = "Elden Ring", Price = 39.99m, Developer = "FromSoftware" },
         new Game { Id = Guid.NewGuid(), Name = "Red Dead Redemption 2", Price = 59.99m, Developer = "Rockstar Games" },
         new Game { Id = Guid.NewGuid(), Name = "The Legend of Zelda: Breath of the Wild", Price = 59.99m, Developer = "Nintendo" },
         new Game { Id = Guid.NewGuid(), Name = "God of War", Price = 59.99m, Developer = "Santa Monica Studio" },
