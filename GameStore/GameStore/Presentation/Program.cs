@@ -40,18 +40,18 @@ using (var scope = app.Services.CreateScope())
         new Game { Id = Guid.NewGuid(), Name = "God of War", Price = 49.99m, Developer = "Santa Monica Studio" },
         new Game { Id = Guid.NewGuid(), Name = "Halo Infinite", Price = 39.99m, Developer = "343 Industries" },
         new Game { Id = Guid.NewGuid(), Name = "Horizon Forbidden West", Price = 59.99m, Developer = "Guerrilla Games" },
-        new Game { Id = Guid.NewGuid(), Name = "Dark Souls III", Price = 39.99m, Developer = "FromSoftware" },
+        new Game { Id = Guid.NewGuid(), Name = "Dark Souls II", Price = 39.99m, Developer = "FromSoftware" },
         new Game { Id = Guid.NewGuid(), Name = "Starfield", Price = 49.99m, Developer = "Bethesda Game Studios" },
         new Game { Id = Guid.NewGuid(), Name = "Assassin's Creed Valhalla", Price = 59.99m, Developer = "Ubisoft" },
         new Game { Id = Guid.NewGuid(), Name = "Call of Duty: Modern Warfare", Price = 69.99m, Developer = "Infinity Ward" },
-        new Game { Id = Guid.NewGuid(), Name = "FIFA 23", Price = 49.99m, Developer = "EA Sports" },
+        new Game { Id = Guid.NewGuid(), Name = "FIFA 24", Price = 49.99m, Developer = "EA Sports" },
         new Game { Id = Guid.NewGuid(), Name = "Resident Evil Village", Price = 49.99m, Developer = "Capcom" },
         new Game { Id = Guid.NewGuid(), Name = "Spider-Man: Miles Morales", Price = 49.99m, Developer = "Insomniac Games" },
         new Game { Id = Guid.NewGuid(), Name = "Final Fantasy VII Remake", Price = 49.99m, Developer = "Square Enix" },
-        new Game { Id = Guid.NewGuid(), Name = "Death Stranding", Price = 39.99m, Developer = "Kojima Productions" },
-        new Game { Id = Guid.NewGuid(), Name = "Ghost of Tsushima", Price = 59.99m, Developer = "Sucker Punch Productions" },
-        new Game { Id = Guid.NewGuid(), Name = "Demon's Souls", Price = 59.99m, Developer = "Bluepoint Games" },
-        new Game { Id = Guid.NewGuid(), Name = "Metro Exodus", Price = 39.99m, Developer = "4A Games" }
+        new Game { Id = Guid.NewGuid(), Name = "Death Stranding", Price = 59.99m, Developer = "Kojima Productions" },
+        new Game { Id = Guid.NewGuid(), Name = "Ghost of Tsushima", Price = 39.99m, Developer = "Sucker Punch Productions" },
+        new Game { Id = Guid.NewGuid(), Name = "Demon's Souls", Price = 69.99m, Developer = "Bluepoint Games" },
+        new Game { Id = Guid.NewGuid(), Name = "Metro Exodus", Price = 49.99m, Developer = "4A Games" }
     };
 
     foreach (var game in games)
