@@ -39,7 +39,7 @@ namespace GameStore.Presentation.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(string id, Game game)
         {
-            if (id != game.Id) return BadRequest();
+            if (Guid.TryParse(id, out var guid) && guid != game.Id) return BadRequest();
             await _service.UpdateAsync(game);
             return NoContent();
         }

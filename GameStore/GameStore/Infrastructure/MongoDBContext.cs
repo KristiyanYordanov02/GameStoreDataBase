@@ -1,20 +1,19 @@
-﻿using MongoDB.Driver;
+﻿using GameStore.Core.Models;
+using MongoDB.Driver;
+using Microsoft.Extensions.Configuration;
 
-namespace GameStore.Infrastructure
+namespace GameStore.Infrastructure.Data
 {
     public class MongoDBContext
     {
         private readonly IMongoDatabase _database;
 
-        public MongoDBContext(string connectionString, string databaseName)
+        public MongoDBContext(IConfiguration configuration)
         {
-            var client = new MongoClient(connectionString);
-            _database = client.GetDatabase(databaseName);
+            var client = new MongoClient(configuration.GetConnectionString("MongoDb"));
+            _database = client.GetDatabase("GameStoreDb"); // използвай реалното име на твоята база
         }
 
-        public IMongoDatabase GetDatabase()
-        {
-            return _database;
-        }
+        public IMongoCollection<Game> Games => _database.GetCollection<Game>("Games");
     }
 }
