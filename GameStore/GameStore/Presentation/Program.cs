@@ -15,14 +15,18 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        // Add services to the container
         builder.Services.AddControllers();
         builder.Services.AddScoped<IGameRepository, GameRepository>();
         builder.Services.AddScoped<IGameService, GameService>();
         builder.Services.AddHealthChecks().AddCheck<HealthCheck>("GameStoreHealthCheck");
-
-        // Register MongoDBContext using DI (it will use IConfiguration)
         builder.Services.AddSingleton<MongoDBContext>();
 
+        // Add Swagger services
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+
+        // Configure Serilog
         Log.Logger = new LoggerConfiguration()
             .WriteTo.Console()
             .CreateLogger();
@@ -30,6 +34,7 @@ public class Program
 
         var app = builder.Build();
 
+        // Seed data
         using (var scope = app.Services.CreateScope())
         {
             var context = scope.ServiceProvider.GetRequiredService<MongoDBContext>();
@@ -68,6 +73,8 @@ public class Program
         if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
+            app.UseSwagger();
+            app.UseSwaggerUI();
         }
 
         app.UseHttpsRedirection();
@@ -76,6 +83,7 @@ public class Program
         app.MapControllers();
         app.MapHealthChecks("/health");
 
-        await app.RunAsync();
+        await app.RunAsync("http://localhost:5000");
+
     }
 }
