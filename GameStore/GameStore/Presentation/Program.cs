@@ -15,12 +15,17 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
+        builder.WebHost.ConfigureKestrel(options =>
+        {
+            options.ListenAnyIP(5000);
+        });
+
         builder.Services.AddControllers();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
         builder.Services.AddScoped<IGameRepository, GameRepository>();
         builder.Services.AddScoped<IGameService, GameService>();
         builder.Services.AddHealthChecks().AddCheck<HealthCheck>("GameStoreHealthCheck");
-
-        // Register MongoDBContext using DI (it will use IConfiguration)
         builder.Services.AddSingleton<MongoDBContext>();
 
         Log.Logger = new LoggerConfiguration()
@@ -70,11 +75,19 @@ public class Program
             app.UseDeveloperExceptionPage();
         }
 
-        app.UseHttpsRedirection();
         app.UseRouting();
         app.UseAuthorization();
         app.MapControllers();
         app.MapHealthChecks("/health");
+
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "GameStore API V1");
+            });
+        }
 
         await app.RunAsync();
     }
